@@ -2,5 +2,9 @@
 
 #### Run MySQL
 
-- docker compose up
-- `http://localhost:8080/?server=mysql`
+- Run MySQL
+    - docker compose up
+    - `http://localhost:8080/?server=mysql`
+
+- Prepare Database and Run migrations
+    - php artisan migrate
