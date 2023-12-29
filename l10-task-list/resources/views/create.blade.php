@@ -17,7 +17,7 @@
         @csrf
         <div>
             <label for="title">Title</label>
-            <input text="text" name="title" id="title" />>
+            <input text="text" name="title" id="title" />
             @error('title')
                 <p class="error-message">{{ $message }}</p>
             @enderror
