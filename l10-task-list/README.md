@@ -27,3 +27,7 @@
 
 - Make Factory file
     - php artisan make:factory `FactoryClassName` --model=`ModelClassName`
+
+- Run Query Builder by Laravel Tinker
+    - php artisan tinker
+        - \App\Models\Task::select('id', 'title')->where('completed', true)->get();
