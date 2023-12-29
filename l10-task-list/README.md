@@ -31,3 +31,6 @@
 - Run Query Builder by Laravel Tinker
     - php artisan tinker
         - \App\Models\Task::select('id', 'title')->where('completed', true)->get();
+
+- Show Routes
+    - php artisan route:list
