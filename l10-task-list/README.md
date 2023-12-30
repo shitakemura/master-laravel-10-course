@@ -34,3 +34,6 @@
 
 - Show Routes
     - php artisan route:list
+
+- Make Request file
+    - php artisan make:request `RequestClassName`
