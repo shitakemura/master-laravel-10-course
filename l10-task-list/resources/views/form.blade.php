@@ -1,15 +1,14 @@
-
 @extends('layouts.app')
 
 @section('title', isset($task) ? 'Edit Task' : 'Add Task')
 
 @section('styles')
-<style>
-    .error-message {
-        color: red;
-        font-size: 0.8rem;
-    }
-</style>
+    <style>
+        .error-message {
+            color: red;
+            font-size: 0.8rem;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -36,7 +35,7 @@
 
         <div>
             <label for="long_description">Long Description</label>
-            <textarea name="long_description" id="description" rows="10">{{  $task->long_description ?? old('long_description') }}</textarea>
+            <textarea name="long_description" id="description" rows="10">{{ $task->long_description ?? old('long_description') }}</textarea>
             @error('long_description')
                 <p class="error-message">{{ $message }}</p>
             @enderror
