@@ -5,3 +5,4 @@
 - php artisan make:model Book -m
 - php artisan make:model Review -m
 - php artisan migrate
+- php artisan migrate:refresh
