@@ -9,3 +9,23 @@
 - php artisan make:factory BookFactory --model=Book
 - php artisan make:factory ReviewFactory --model=Review
 - php artisan migrate:refresh --seed
+- php artisan tinker
+    - $book = \App\Models\Book::find(1);
+    - $reviews = $book->reviews;
+    - \App\Models\Book::with('reviews')->find(1);
+    - $books = \App\Models\Book::with('reviews')->take(3)->get();
+    - $book = \App\Models\Book::find(2);
+    - $book->load('reviews');
+    - $book = \App\Models\Book::find(1);
+    - $review = new \App\Models\Review();
+    - $review->review = 'This was fine';
+    - $review->rating = 3;
+    - $book->reviews()->save($review);
+    - $book->reviews;
+    - $book = \App\Models\Book::find(1);
+    - $review = $book->reviews()->create(['review' => 'Sample review', 'rating' => 5]);
+    - $review = \App\Models\Review::find(1);
+    - $review->book;
+    - $book2 = \App\Models\Book::find(2);
+    - $book2->reviews()->save($review);
+    - $review = \App\Models\Review::with('book')->find(1);
