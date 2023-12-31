@@ -29,3 +29,7 @@
     - $book2 = \App\Models\Book::find(2);
     - $book2->reviews()->save($review);
     - $review = \App\Models\Review::with('book')->find(1);
+    - \App\Models\Book::where('title', 'LIKE', '%quia%')->get();
+    - \App\Models\Book::title('quia')->get();
+    - \App\Models\Book::title('quia')->where('created_at', '>', '2023-01-01')->get();
+    - \App\Models\Book::title('quia')->where('cerated_at', '>', '2023-01-01')->toSql();
