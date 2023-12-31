@@ -33,3 +33,11 @@
     - \App\Models\Book::title('quia')->get();
     - \App\Models\Book::title('quia')->where('created_at', '>', '2023-01-01')->get();
     - \App\Models\Book::title('quia')->where('cerated_at', '>', '2023-01-01')->toSql();
+    - \App\Models\Book::withCount('reviews')->get();
+    - \App\Models\Book::withCount('reviews')->latest()->limit(3)->get();
+    - \App\Models\Book::limit(5)->withAvg('reviews', 'rating')->orderBy('reviews_avg_rating')->get();
+    - \App\Models\Book::limit(5)->withAvg('reviews', 'rating')->orderBy('reviews_avg_rating')->toSql();
+    - \App\Models\Book::withCount('reviews')->withAvg('reviews', 'rating')->having('reviews_count', '>=', 10)->orderBy('reviews_avg_rating', 'desc')->limit(10)->get();
+    - \App\Models\Book::withCount('reviews')->withAvg('reviews', 'rating')->having('reviews_count', '>=', 10)->orderBy('reviews_avg_rating', 'desc')->limit(10)->toSql();
+    
+
