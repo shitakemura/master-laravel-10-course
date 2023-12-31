@@ -41,3 +41,4 @@
     - \App\Models\Book::withCount('reviews')->withAvg('reviews', 'rating')->having('reviews_count', '>=', 10)->orderBy('reviews_avg_rating', 'desc')->limit(10)->toSql();
     - \App\Models\Book::popular()->highestRated()->get();
     - \App\Models\Book::highestRated('2023-02-01', '2023-03-30')->popular('2023-02-01', '2023-03-30')->minReviews(5)->get();
+- php artisan make:controller BookController --resource
