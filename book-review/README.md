@@ -42,3 +42,12 @@
     - \App\Models\Book::popular()->highestRated()->get();
     - \App\Models\Book::highestRated('2023-02-01', '2023-03-30')->popular('2023-02-01', '2023-03-30')->minReviews(5)->get();
 - php artisan make:controller BookController --resource
+- php artisan tinker
+    - $review = \App\Models\Review::findOrFail(1743);
+    - $review->rating = 4;
+    - $review;
+    - $review->save();
+    - $review = \App\Models\Review::findOrFail(1743);
+    - $review->update(['rating' => 1]);
+    - $review;
+    - \App\Models\Review::where('id', 1743)->update(['rating' => 2]);
