@@ -52,4 +52,4 @@
     - $review;
     - \App\Models\Review::where('id', 1743)->update(['rating' => 2]);
 - php artisan make:component StarRating
-
+- php artisan make:controller ReviewController --resource
