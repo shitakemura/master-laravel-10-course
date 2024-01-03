@@ -12,3 +12,4 @@
 - php artisan make:seeder EventSeeder
 - php artisan make:seeder AttendeeSeeder
 - php artisan migrate:refresh --seed
+- php artisan serve
