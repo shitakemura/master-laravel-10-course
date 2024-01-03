@@ -9,3 +9,4 @@
 
 - Project #1 - l10-task-list
 - Project #2 - book-review
+- Project #3 - Event Management App (REST API)
