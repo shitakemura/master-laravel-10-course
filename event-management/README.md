@@ -8,3 +8,7 @@
 - php artisan make:controller Api/AttendeeController --api
 - php artisan make:controller Api/EventController --api
 - php artisan route:list
+- php artisan make:factory EventFactory --model=Event
+- php artisan make:seeder EventSeeder
+- php artisan make:seeder AttendeeSeeder
+- php artisan migrate:refresh --seed
