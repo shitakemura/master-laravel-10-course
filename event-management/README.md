@@ -7,3 +7,4 @@
 - php artisan make:model Attendee -m
 - php artisan make:controller Api/AttendeeController --api
 - php artisan make:controller Api/EventController --api
+- php artisan route:list
