@@ -1,9 +1,22 @@
-GET http://127.0.0.1:8001
+@baseUrl = http://127.0.0.1:8000
 
 ####
-GET http://127.0.0.1:8001/api/events
+GET {{ baseUrl }}
+
+####
+GET {{ baseUrl }}/api/events
 Content-Type: application/json
 
 ####
-GET http://127.0.0.1:8001/api/events/1
+GET {{ baseUrl }}/api/events/1
 Content-Type: application/json
+
+####
+POST {{ baseUrl }}/api/events
+Content-Type: application/json
+
+{
+    "name": "first event",
+    "start_time": "2023-07-01 15:00:00",
+    "end_time": "2024-07-01 16:00:00"
+}
