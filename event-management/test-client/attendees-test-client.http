@@ -1,0 +1,14 @@
+@baseUrl = http://127.0.0.1:8000
+
+####
+GET {{baseUrl}}/api/events/10/attendees
+
+####
+GET {{baseUrl}}/api/events/10/attendees/1964
+
+####
+DELETE {{baseUrl}}/api/events/10/attendees/1964
+
+####
+POST {{baseUrl}}/api/events/10/attendees
+Content-Type: application/json
