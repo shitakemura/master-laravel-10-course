@@ -13,3 +13,6 @@
 - php artisan make:seeder AttendeeSeeder
 - php artisan migrate:refresh --seed
 - php artisan serve
+- php artisan make:resource EventResource
+- php artisan make:resource UserResource
+- php artisan make:resource AttendeeResource

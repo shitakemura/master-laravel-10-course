@@ -8,7 +8,7 @@ GET {{ baseUrl }}/api/events
 Content-Type: application/json
 
 ####
-GET {{ baseUrl }}/api/events/1
+GET {{ baseUrl }}/api/events/2
 Content-Type: application/json
 
 ####
