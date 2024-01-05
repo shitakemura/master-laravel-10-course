@@ -31,3 +31,7 @@ Content-Type: application/json
 
 ####
 DELETE {{ baseUrl }}/api/events/1
+
+####
+GET {{ baseUrl }}/api/events?include=user,attendees,attendees.user
+Content-Type: application/json
