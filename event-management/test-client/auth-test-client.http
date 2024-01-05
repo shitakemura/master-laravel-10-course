@@ -5,6 +5,11 @@ POST {{baseUrl}}/api/login
 Content-Type: : application/json
 
 {
-    "email": "vicente.mraz@example.org",
+    "email": "velma63@example.org",
     "password": "password"
 }
+
+####
+GET {{baseUrl}}/api/user
+Accept: application/json
+Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87

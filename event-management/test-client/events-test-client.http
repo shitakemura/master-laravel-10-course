@@ -13,6 +13,8 @@ Content-Type: application/json
 
 ####
 POST {{ baseUrl }}/api/events
+Accept: : application/json
+Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87
 Content-Type: application/json
 
 {
@@ -22,7 +24,9 @@ Content-Type: application/json
 }
 
 ####
-PUT {{ baseUrl }}/api/events/1
+PUT {{ baseUrl }}/api/events/209
+Accept: : application/json
+Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87
 Content-Type: application/json
 
 {
@@ -30,7 +34,9 @@ Content-Type: application/json
 }
 
 ####
-DELETE {{ baseUrl }}/api/events/1
+DELETE {{ baseUrl }}/api/events/209
+Accept: : application/json
+Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87
 
 ####
 GET {{ baseUrl }}/api/events?include=user,attendees,attendees.user
