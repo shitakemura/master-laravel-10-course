@@ -16,3 +16,5 @@
 - php artisan make:resource EventResource
 - php artisan make:resource UserResource
 - php artisan make:resource AttendeeResource
+- php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+- php artisan make:controller Api/AuthController
