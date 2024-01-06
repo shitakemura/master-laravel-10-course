@@ -18,3 +18,5 @@
 - php artisan make:resource AttendeeResource
 - php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 - php artisan make:controller Api/AuthController
+- php artisan make:policy EventPolicy --model=Event
+- php artisan make:policy AttendeePolicy --model=Attendee
