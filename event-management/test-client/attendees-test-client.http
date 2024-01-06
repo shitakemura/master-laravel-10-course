@@ -7,7 +7,10 @@ GET {{baseUrl}}/api/events/10/attendees
 GET {{baseUrl}}/api/events/10/attendees/1964
 
 ####
-DELETE {{baseUrl}}/api/events/10/attendees/1964
+DELETE {{baseUrl}}/api/events/9/attendees/18
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 7|4CGzJG9TngL68ojLCVHMNLFluhIpqW7vIzohOdy671e9fd2f
 
 ####
 POST {{baseUrl}}/api/events/10/attendees

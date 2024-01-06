@@ -24,9 +24,9 @@ Content-Type: application/json
 }
 
 ####
-PUT {{ baseUrl }}/api/events/209
+PUT {{ baseUrl }}/api/events/56
 Accept: : application/json
-Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87
+Authorization: Bearer 6|4cMp76Wlt8mDu1wxGRogtJiZ5DkpxgNo8cpMvI64c5eeaadc
 Content-Type: application/json
 
 {
