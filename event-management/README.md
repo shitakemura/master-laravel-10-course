@@ -20,3 +20,5 @@
 - php artisan make:controller Api/AuthController
 - php artisan make:policy EventPolicy --model=Event
 - php artisan make:policy AttendeePolicy --model=Attendee
+- php artisan make:command SendEventReminders
+- php artisan app:send-event-reminders
