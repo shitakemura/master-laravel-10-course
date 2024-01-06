@@ -13,3 +13,8 @@ Content-Type: : application/json
 GET {{baseUrl}}/api/user
 Accept: application/json
 Authorization: Bearer 3|UuWEaKrM9guS1p4G6bU7reyg5CSiPNaxYvjiEkIwbaedff87
+
+####
+POST {{baseUrl}}/api/logout
+Accept: application/json
+Authorization: Bearer 5|XHbVlKGZtv8rhW5QAxNk0q67r4tXYUU6mOeZYTrYf9ddbae5
