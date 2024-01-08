@@ -22,3 +22,4 @@
 - php artisan make:policy AttendeePolicy --model=Attendee
 - php artisan make:command SendEventReminders
 - php artisan app:send-event-reminders
+- php artisan schedule:work
