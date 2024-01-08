@@ -23,3 +23,4 @@
 - php artisan make:command SendEventReminders
 - php artisan app:send-event-reminders
 - php artisan schedule:work
+- php artisan make:notification EventReminderNotification
