@@ -9,3 +9,4 @@
 - php artisan make:model Vote -m
 - php artisan make:model Option -m
 - php artisan migrate
+- php artisan make:livewire CreatePoll
