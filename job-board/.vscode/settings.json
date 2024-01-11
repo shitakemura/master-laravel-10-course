@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "bladeFormatter.format.enabled": true,
+    "bladeFormatter.format.indentSize": 4
+}
