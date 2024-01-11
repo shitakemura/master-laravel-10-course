@@ -54,6 +54,9 @@ class CreatePoll extends Component
         );
 
         $this->reset(['title', 'options']);
+
+        // https://livewire.laravel.com/docs/events#dispatching-events
+        $this->dispatch('pollCreated');
     }
 
     // public function mount()
