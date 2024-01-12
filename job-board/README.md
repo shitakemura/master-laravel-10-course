@@ -10,3 +10,4 @@
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 - php artisan make:component Layout --view
+- php artisan make:component Card --view
