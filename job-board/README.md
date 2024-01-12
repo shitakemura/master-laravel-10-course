@@ -6,3 +6,4 @@
 - php artisan make:model Job -mf
 - php artisan make:controller JobController --resource
 - php artisan migrate:refresh --seed
+- composer require barryvdh/laravel-debugbar --dev
