@@ -15,3 +15,5 @@
 - php artisan make:component LinkButton --view
 - php artisan make:component JobCard --view
 - php artisan make:component Breadcrumbs
+- npm install -D @tailwindcss/forms
+- php artisan make:component TextInput
