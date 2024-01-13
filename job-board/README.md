@@ -14,3 +14,4 @@
 - php artisan make:component Tag --view
 - php artisan make:component LinkButton --view
 - php artisan make:component JobCard --view
+- php artisan make:component Breadcrumbs
