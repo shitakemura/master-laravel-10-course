@@ -12,3 +12,5 @@
 - php artisan make:component Layout --view
 - php artisan make:component Card --view
 - php artisan make:component Tag --view
+- php artisan make:component LinkButton --view
+- php artisan make:component JobCard --view
