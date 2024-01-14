@@ -17,3 +17,4 @@
 - php artisan make:component Breadcrumbs
 - npm install -D @tailwindcss/forms
 - php artisan make:component TextInput
+- php artisan make:component RadioGroup
