@@ -18,3 +18,5 @@
 - npm install -D @tailwindcss/forms
 - php artisan make:component TextInput
 - php artisan make:component RadioGroup
+- php artisan make:component Button --view
+- npm install alpinejs
