@@ -20,3 +20,5 @@
 - php artisan make:component RadioGroup
 - php artisan make:component Button --view
 - npm install alpinejs
+- php artisan make:model Employer -mf
+- php artisan db:wipe && php artisan migrate
