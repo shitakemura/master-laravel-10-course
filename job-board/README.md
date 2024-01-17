@@ -23,3 +23,5 @@
 - php artisan make:model Employer -mf
 - php artisan db:wipe && php artisan migrate
 - php artisan migrate:refresh --seed
+- php artisan make:controller AuthController --resource
+
