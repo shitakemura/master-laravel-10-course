@@ -28,4 +28,4 @@
 - php artisan make:model JobApplication -mf
 - php artisan migrate:refresh --seed
 - php artisan make:controller JobApplicationController --resource
-
+- php artisan make:policy JobPolicy --model=Job
