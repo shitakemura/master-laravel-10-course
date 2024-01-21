@@ -30,3 +30,5 @@
 - php artisan make:controller JobApplicationController --resource
 - php artisan make:policy JobPolicy --model=Job
 - php artisan make:controller MyJobApplicationController --resource
+- php artisan make:migration AddCvPathToJobApplicationsTable
+- php artisan migrate
