@@ -32,3 +32,4 @@
 - php artisan make:controller MyJobApplicationController --resource
 - php artisan make:migration AddCvPathToJobApplicationsTable
 - php artisan migrate
+- php artisan make:component Label
