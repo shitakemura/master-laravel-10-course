@@ -33,3 +33,5 @@
 - php artisan make:migration AddCvPathToJobApplicationsTable
 - php artisan migrate
 - php artisan make:component Label
+- php artisan make:controller EmployerController --resource
+- php artisan make:policy EmployerPolicy --model=Employer
