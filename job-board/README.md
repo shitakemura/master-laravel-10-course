@@ -37,3 +37,4 @@
 - php artisan make:policy EmployerPolicy --model=Employer
 - php artisan make:controller MyJobController --resource
 - php artisan make:middleware Employer
+- php artisan make:request JobRequest
