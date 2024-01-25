@@ -38,3 +38,5 @@
 - php artisan make:controller MyJobController --resource
 - php artisan make:middleware Employer
 - php artisan make:request JobRequest
+- php artisan make:migration AddSoftDeletesToJobsTable
+- php artisan migrate
